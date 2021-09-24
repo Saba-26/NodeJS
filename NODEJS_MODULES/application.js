@@ -24,15 +24,27 @@
 //     else console.log('Successfully Renamed!');
 // })
 
-const os = require('os')
+// const os = require('os')
 
-freeMemory=os.freemem();
-console.log(`Free Memory: ${freeMemory}`);
+// freeMemory=os.freemem();
+// console.log(`Free Memory: ${freeMemory}`);
 
 
-totalMemory=os.totalmem();
-console.log(`Total Memory: ${totalMemory}`);
+// totalMemory=os.totalmem();
+// console.log(`Total Memory: ${totalMemory}`);
 
-console.log(os.homedir());
+// console.log(os.homedir());
 
-console.log(os.hostname());
+// console.log(os.hostname());
+
+// const path=require('path')
+
+// console.log(path.extname(__filename));
+
+// console.log(path.dirname(__filename));
+
+// console.log(path.parse(__filename));
+
+const url=require('url')
+
+const myURL=new URL('')
